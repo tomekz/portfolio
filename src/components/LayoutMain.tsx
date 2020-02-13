@@ -2,7 +2,9 @@ import * as React from 'react'
 import styled from '@emotion/styled'
 
 const StyledLayoutMain = styled.main`
+  background-color: #efefef;
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex: 1;
 `
@@ -12,7 +14,11 @@ interface LayoutMainProps {
 }
 
 const LayoutMain: React.FC<LayoutMainProps> = ({ children, className }) => (
-  <StyledLayoutMain className={className}>{children}</StyledLayoutMain>
+  <StyledLayoutMain className={className}>
+    <header>about me</header>
+    {children}
+    <footer>work</footer>
+  </StyledLayoutMain>
 )
 
 export default LayoutMain
