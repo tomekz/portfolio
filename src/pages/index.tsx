@@ -9,9 +9,7 @@ const IndexPage = () => (
     <Page>
       <Container>
         <h1>Tomasz Zadrozny</h1>
-        <div>
-          <span>/</span>
-        </div>
+        <span>/</span>
         <h2>Web developer</h2>
       </Container>
     </Page>

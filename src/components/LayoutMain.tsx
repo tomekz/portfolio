@@ -2,7 +2,6 @@ import * as React from 'react'
 import styled from '@emotion/styled'
 
 const StyledLayoutMain = styled.main`
-  background-color: #efefef;
   display: flex;
   align-items: center;
   flex-direction: column;
