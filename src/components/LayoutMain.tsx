@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from '@emotion/styled'
+import { Footer } from './Footer'
 
 const StyledLayoutMain = styled.main`
   display: flex;
@@ -14,9 +15,8 @@ interface LayoutMainProps {
 
 const LayoutMain: React.FC<LayoutMainProps> = ({ children, className }) => (
   <StyledLayoutMain className={className}>
-    <header>about me</header>
     {children}
-    <footer>work</footer>
+    <Footer />
   </StyledLayoutMain>
 )
 
