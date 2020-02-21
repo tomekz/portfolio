@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const StyledFooter = styled.footer`
-  margin: 20px 0;
+  margin: 0 0 20px 0;
 `
 
 export const StyledLink = styled.a`
@@ -17,4 +17,8 @@ export const StyledSocialMediaList = styled.ul`
 export const StyledImgIcon = styled.img`
   width: 25px;
   margin: 5px 10px;
+`
+
+export const StyledIntro = styled.div`
+  padding: 20px 0;
 `

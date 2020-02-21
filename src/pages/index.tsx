@@ -3,14 +3,13 @@ import * as React from 'react'
 import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
+import { Intro } from '../components/Intro'
 
 const IndexPage = () => (
   <IndexLayout>
     <Page>
       <Container>
-        <h1>Tomasz Zadrozny</h1>
-        <span>/</span>
-        <h2>Web developer</h2>
+        <Intro />
       </Container>
     </Page>
   </IndexLayout>
