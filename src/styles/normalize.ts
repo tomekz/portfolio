@@ -28,7 +28,8 @@ export default `
   }
 
   a {
-    color: ${colors.brand};
+    background-image: none;
+    color: ${colors.accent};
     text-decoration: none;
 
     &:hover,

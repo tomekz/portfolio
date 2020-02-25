@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 import Page from '../components/Page'
 import Container from '../components/Container'
@@ -10,6 +11,7 @@ const IndexPage = () => (
     <Page>
       <Container>
         <Intro />
+        <Link to="/about">About</Link>
       </Container>
     </Page>
   </IndexLayout>

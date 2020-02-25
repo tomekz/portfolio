@@ -19,6 +19,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'img',
+        path: `${__dirname}/src/assets/img`
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
@@ -34,9 +41,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1140,
-              quality: 90,
-              linkImagesToOriginal: false
+              disableBgImage: true,
+              backgroundColor: 'none'
             }
           }
         ]
